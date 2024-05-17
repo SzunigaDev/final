@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Session",
+    "slug": "Session",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.szuniga089.Session"
+    },
+    "web": {
+      "favicon": "./assets/images/logo1.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bcb0cd61-ad6b-4186-a7f6-177c88002cf8"
+      }
+    }
+  }
+}
